@@ -11,7 +11,7 @@
 
 4.请求: 任何请求使用game.cmd()调用模块api
 
-5.响应: 通过Game21Notify接口的backHandle，你需要实现对应接口（步骤2）并且处理回调的信息
+5.响应: 模块内部有结果，会通过Game21Notify接口的backHandle函数回调（在 创建TwentyOneGame对象时会需要该接口），你需要实现对应接口（步骤2）并且处理回调的信息
 
 
 ## 模块结构
